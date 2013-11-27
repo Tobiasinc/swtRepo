@@ -1,8 +1,6 @@
 package swt;
 
-import java.awt.Point;
 import java.awt.geom.Point2D;
-import java.awt.geom.Point2D.Double;
 
 public class Viereck {
     private Point2D.Double a;
