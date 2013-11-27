@@ -1,5 +1,6 @@
 package swt;
 
+import java.awt.Point;
 import java.awt.geom.Point2D;
 
 public class Viereck {
@@ -13,6 +14,17 @@ public class Viereck {
         this.b = b;
         this.c = c;
         this.d = d;
+    }
+    
+    public Viereck(Point a, Point b, Point c, Point d) {
+        this.a.x = a.x;
+        this.a.y = a.y;
+        this.b.x = b.x;
+        this.b.y = b.y;
+        this.c.x = c.x;
+        this.c.y = c.y;
+        this.d.x = d.x;
+        this.d.y = d.y;
     }
 
     public boolean isQuadrat() {
