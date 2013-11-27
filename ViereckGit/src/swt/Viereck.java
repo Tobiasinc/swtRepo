@@ -29,10 +29,17 @@ public class Viereck {
     }
     
     public boolean isParallelogramm() {
-    	if ((a.x == d.x) && (a.y ==d.y) && (b.x == c.x) && (b.y ==c.y)) {
+    	if ((a.y == d.y) && (c.y == d.y)) {
 			if((a.x-b.x) == (d.x-c.x)) {
 				return true;
 			}
+		}
+    	return false;
+    }
+    
+    public boolean isViereck() {
+    	if ((a.y == d.y) && (c.y == d.y)) {
+			return true;
 		}
     	return false;
     }
